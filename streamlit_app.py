@@ -28,7 +28,7 @@ df = pd.DataFrame({
     "y": y,
     "idx": indices,
     "rand": np.random.randn(num_points),
-})
+}) 'By Murugan'
 
 st.altair_chart(alt.Chart(df, height=700, width=700)
     .mark_point(filled=True)
